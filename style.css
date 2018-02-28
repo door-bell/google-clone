@@ -55,6 +55,7 @@ header {
   display: block;
   top: 0;
   width: 100%;
+  line-height: 28px;
 }
 input {
   -webkit-appearance: none;
@@ -78,7 +79,6 @@ li {
 .search:focus {
   box-shadow: 1px 1px 5px rgba(0,0,0,.25);
 }
-
 .search:hover {
   box-shadow: 1px 1px 5px rgba(0,0,0,.25);
 }
@@ -94,10 +94,4 @@ li {
   border: 1px solid rgba(0,0,0,.3);
   box-shadow: 1px 1px 5px rgba(0,0,0,.3);
   color: rgba(0,0,0,1);
-}
-#topLeft {
-  line-height: 28px;
-}
-ul {
-  margin-top: 0;
 }
